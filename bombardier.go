@@ -172,6 +172,7 @@ func makeHTTPClient(clientType clientTyp, cc *clientOpts) client {
 	default:
 		cl = newFastHTTPClient(cc)
 	}
+
 	return cl
 }
 

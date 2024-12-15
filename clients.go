@@ -68,6 +68,8 @@ func newFastHTTPClient(opts *clientOpts) client {
 			opts.bytesRead, opts.bytesWritten,
 			opts.timeout,
 		),
+		//jason
+		ReadBufferSize: 64100,
 	}
 	c.headers = headersToFastHTTPHeaders(opts.headers)
 	c.method, c.body = opts.method, opts.body
