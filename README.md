@@ -56,3 +56,22 @@ Statistics        Avg      Stdev        Max
     dialing to the given TCP address timed out - 5
   Throughput:     3.06MB/s
 ```
+
+
+./bombardier -c 125 -n 1000000 https://riteonline-dev.orb.rite.etcchosted.com/
+
+./bombardier -c 125 -n 1000000 https://riteonline-dev.octa.rite.etcchosted.com/
+
+./bombardier -c 25 -n 100000 https://riteonline-dev.orb.rite.etcchosted.com/
+
+./bombardier -c 25 -n 100000 https://riteonline-dev.octa.rite.etcchosted.com/
+
+
+
+./bombardier -c 25 -n 100000 https://riteonline-uat.orb.rite.etcchosted.com/
+
+./bombardier -c 25 -n 100000 https://riteonline-uat.octa.rite.etcchosted.com/
+
+
+
+./bombardier -c 125 -n 100000 https://riteonline-uat.octa.rite.etcchosted.com/

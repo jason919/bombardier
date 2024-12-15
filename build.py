@@ -9,7 +9,7 @@ platforms = [
     # ("freebsd", "amd64"),
     # ("freebsd", "arm"),
     # ("linux", "386"),
-    # ("linux", "amd64"),
+    ("linux", "amd64"),
     # ("linux", "arm"),
     # ("linux", "arm64"),
     # ("netbsd", "386"),
